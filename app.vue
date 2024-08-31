@@ -6,14 +6,14 @@ useHead({
     lang: 'en',
   },
   charset: 'utf-8',
-  title: 'Nuxt Movies',
-  titleTemplate: title => title !== 'Nuxt Movies' ? `${title} · Nuxt Movies` : title,
+  title: 'Loic Movies',
+  titleTemplate: title => title !== 'Loic Movies' ? `${title} · Loic Movies` : title,
   meta: [
-    { name: 'description', content: 'A TMDB client built with Nuxt Image to show the potential of it ✨' },
-    { property: 'og:image', content: 'https://movies.nuxt.space/social-card.png' },
+    { name: 'description', content: 'Movies application built by LOIC Nguefack✨' },
+    { property: 'og:image', content: '' },
     { name: 'twitter:card', content: 'summary_large_image' },
-    { name: 'twitter:site', content: '@nuxt_js' },
-    { name: 'twitter:creator', content: '@nuxt_js' },
+    { name: 'twitter:site', content: '@L_nguefack' },
+    { name: 'twitter:creator', content: '@L_nguefack' },
   ],
   link: [
     {
